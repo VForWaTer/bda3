@@ -16,7 +16,7 @@ setup(
     name='bda3',
     version=version(),
     license='MIT',
-    description='Algorithms from the book Bayesian Data Analysis by Gelamn et. al.',
+    description='Algorithms from the book Bayesian Data Analysis by Gelman et. al.',
     long_description=readme(),
     long_description_content_type = 'text/markdown',
     author='Alexander Dolich',
