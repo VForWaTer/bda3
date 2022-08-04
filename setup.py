@@ -5,8 +5,9 @@ def requirements():
         return f.read().strip().split('\n')
 
 def version():
-    with open('VERSION') as f:
-        return f.read().strip()
+    import importlib
+    bda3 = importlib.import_module('bda3')
+    return bda3.__version__
 
 def readme():
     with open('README.md') as f:
